@@ -10424,15 +10424,20 @@ button {
 
 
 #contactMePic{
-  height: 500px;
-  position: relative;
+  position: absolute;
+  height: 770px;
+  z-index: 0;
 }
 
 
 
+.contactImgContainer{
+  position: relative;
+  right: 230px;
+}
 
 
-
+/* over here we are adding media query for contact section */
 
 
 
@@ -10445,6 +10450,7 @@ button {
     padding: 120px 0px;
 }
 
+
 .contact_inner{
     background-color: #fff;
     position: relative;
@@ -10453,6 +10459,10 @@ button {
 }
 .contact_field{
     padding: 60px 340px 90px 100px;
+    position: relative;
+    left: 210px;
+    width: 740px;
+
 }
 .right_conatct_social_icon{
     height: 100%;
@@ -10744,6 +10754,7 @@ text-transform: capitalize;
 
 .we-offer-area .item p {
 margin: 0;
+font-size: 15px;
 }
 
 .we-offer-area .item i,
@@ -10820,4 +10831,56 @@ left: -10px;
 position: absolute;
 top: -10px;
 width: 120px;
+}
+
+
+.item{
+  height: 530px;
+}
+
+
+
+/* adding media query for contact section in the website */
+
+@media (max-width:1180px){
+  .contact_field{
+    visibility: hidden;
+  }
+}
+@media (max-width:393px){
+  .contactImgContainer{
+    visibility: hidden;
+  }
+  .contact_field{
+    visibility: hidden;
+  }
+
+}
+@media (max-width:475px){
+  .contactImgContainer{
+    visibility: hidden;
+  }
+  .contact_field{
+    visibility: hidden;
+  }
+
+ 
+}
+
+
+
+.contact_inner {
+  position: relative;
+  /* height: 320px; */
+  /* top: 350px; */
+  /* left: 1400px; */
+  /* width: 19%; */
+  box-sizing: border-box;
+  transition: all 0.2s ease-in;
+  z-index: 1;
+}
+
+.contact_inner:hover {
+  transform: scale(1.1) rotate(2deg);
+  box-shadow: 0px 0px 20px black;
 }
