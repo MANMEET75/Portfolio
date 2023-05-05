@@ -10921,12 +10921,15 @@ width: 120px;
 
 
 .dataVisualSubContainer{
-	margin: 4% auto;
+	margin: 5% auto;
 	width: 210px;
-	height: 140px;
+	height: 130px;
 	position: relative;
 	perspective: 1000px;
 }
+
+
+
 #carousel{
 	width: 100%;
 	height: 100%;
@@ -10940,14 +10943,33 @@ width: 120px;
 #carousel figure{
 	display: block;
 	position: absolute;
-	width: 186px;
-	height: 150px;
+	width: 91%;
+	height: 130px;
 	left: 10px;
 	top: 10px;
-	background: black;
+	background: #000;
 	overflow: hidden;
-	border: solid 5px black;
+	border: solid 5px #b1b493;
 }
+#carousel figure h6{
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b1b493;
+  position: relative;
+  margin: 2px;
+  top: 30px;
+  z-index: 5;
+
+}
+
+.fa-aws{
+  position: absolute;
+  left: 40%;
+  font-size: 28px;
+}
+
+
 #carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
 #carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
 #carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
@@ -10958,11 +10980,10 @@ width: 120px;
 #carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
 #carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
 
+
 #dvImages{
-	cursor: pointer;
-  height: 150px;
-  width: 198px;
-	/* transition: all .5s ease; */
+  /* height: 120px;
+  width: 190px; */
 }
 #dvImages:hover{
 	/* -webkit-filter: grayscale(0); */
