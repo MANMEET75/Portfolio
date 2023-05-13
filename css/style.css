@@ -15499,4 +15499,59 @@ ul {
 }
 
 
+/* css for data science projects over here */
 
+*{
+  box-sizing: border-box;
+}
+.article{
+  width:900px;
+  margin:30px;
+  padding:12px;
+  background:#efefef;
+  border-radius:5px;
+}
+.image{
+  background:silver;
+  width:500px;
+  height:400px;
+  border-radius:5px;
+  padding:20px;
+  color:#efefef;
+  font-size:8rem;
+  &.right{
+    float:right;
+    margin-left:20px;
+  }
+  &.left{
+    float:left;
+    margin-right:30px;
+  }
+}
+.content{
+  padding: 0 20px;
+  color:#444;
+  .headline{
+  }
+}
+
+.group{
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  } 
+  &:after {
+    clear: both;
+  }
+}
+
+
+
+.sub-headline{
+  font-size: 12px;
+  position: relative;
+  bottom: 14px;
+  font-weight: 700;
+  color: #146eb4;
+}
