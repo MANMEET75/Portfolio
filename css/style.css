@@ -15531,8 +15531,7 @@ ul {
 .content{
   padding: 0 20px;
   color:#444;
-  .headline{
-  }
+  
 }
 
 .group{
@@ -15549,9 +15548,119 @@ ul {
 
 
 .sub-headline{
-  font-size: 12px;
+  font-size: 15px;
   position: relative;
   bottom: 14px;
   font-weight: 700;
-  color: #146eb4;
+  /* color: #146eb4; */
+  color: #000;
 }
+
+
+.headline{
+  font-size:35px;
+  font-weight: 700;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.DS-project-link{
+  font-weight: 700;
+  font-size:20px;
+}
+
+.fa-business-time{
+  color: #b1b493;
+}
+
+.fa-shopping-bag{
+  color: #b1b493;
+}
+
+
+.Company-Logo-DS-Project1{
+  width: 400px;
+  position: absolute;
+  top: 170px;
+  right: 250px;
+  opacity: 0.2;
+
+}
+.Company-Logo-DS-Project2{
+  width: 700px;
+  position: absolute;
+  top: 240px;
+  right: 100px;
+  opacity: 0.2;
+
+}
+
+.movingmanGIF{
+  position: absolute;
+  width: 50px;
+  left: 340px;
+  bottom: 25px;
+}
+.article{
+  box-shadow: 20px 20px #b1b493;
+}
+
+
+/* https://www.youtube.com/watch?v=DVkKJvEw6Gw */
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap");
+
+
+
+
+.card {
+  height: 550px;
+  width:910px;
+  padding: 20px;
+  color: white;
+  background-image: url("https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80");
+  background-size: cover;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+}
+
+.webcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(31, 31, 31, 0.85);
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.webcontent * {
+  transform: translateY(-70%);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.webcontent h2 {
+  font-size: 35px;
+  margin: 15px;
+  font-weight: 700;
+}
+
+.webcontent h3 {
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.card:hover .webcontent {
+  opacity: 1;
+}
+
+.card:hover .webcontent * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
