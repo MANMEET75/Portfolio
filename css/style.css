@@ -15614,7 +15614,7 @@ ul {
 
 .card {
   height: 550px;
-  width:910px;
+  width:800px;
   padding: 20px;
   color: white;
   background-image: url("https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80");
@@ -15664,3 +15664,19 @@ ul {
 
 
 
+/* .about--me1,.about--me2,.top-headings-animate,.right-animate,.left-animate{
+  opacity: 0;
+}
+
+.about--me1.animated,.about--me1.animated,.top-headings-animate.animated,.right-animate.animated,.left-animate.animated{
+  opacity: 1;
+} */
+
+
+.flash-animate,.fadeInleft-animate,.fadeInRight-animate,.zoomInDown-animate,.zoomIn-animate,.fadeInBottomLeft-animate,.fadeInUp-animate,.rotateInDownLeft-animate,.rotateInDownRight-animate{
+  opacity: 0;
+}
+
+.flash-animate.animated,.fadeInleft-animate.animated,.fadeInRight-animate.animated,.zoomInDown-animate,.zoomIn-animate.animated,.fadeInBottomLeft-animate.animated,.fadeInUp-animate.animated,.rotateInDownLeft-animate.animated,.rotateInDownRight-animate.animated{
+  opacity: 1;
+}
