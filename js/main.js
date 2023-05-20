@@ -548,6 +548,12 @@ $(document).ready(function () {
   },{
     offset:"50%"
   });
+  $(".flipInX-animate").waypoint(function(direction){
+    $(".flipInX-animate").addClass("animated flipInX")
+
+  },{
+    offset:"50%"
+  });
 
 
 

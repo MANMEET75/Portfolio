@@ -14778,8 +14778,8 @@ button {
 /* adding the bottom social links */
 .social-menu {
   position: relative;
-  top: 55px;
-  right: 32px;
+  top: 150px;
+
 
 }
 
@@ -14803,6 +14803,8 @@ button {
   line-height: 60px;
   transition: .3s;
   color: #000;
+  position: relative;
+  bottom: 8px;
 }
 
 .social-menu ul li .fab:hover {
@@ -14812,8 +14814,8 @@ button {
 .social-menu ul li a {
   position: relative;
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   background-color: #fff;
   text-align: center;
@@ -15617,12 +15619,16 @@ ul {
   width:800px;
   padding: 20px;
   color: white;
-  background-image: url("https://images.unsplash.com/flagged/photo-1559717865-a99cac1c95d8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1502&q=80");
   background-size: cover;
   display: flex;
   position: relative;
   cursor: pointer;
+  border: #ffff 5px solid;
 }
+.web-projects-desc{
+  padding-top: 12px;
+}
+
 
 .webcontent {
   display: flex;
@@ -15673,10 +15679,28 @@ ul {
 } */
 
 
-.flash-animate,.fadeInleft-animate,.fadeInRight-animate,.zoomInDown-animate,.zoomIn-animate,.fadeInBottomLeft-animate,.fadeInUp-animate,.rotateInDownLeft-animate,.rotateInDownRight-animate{
+.flash-animate,.fadeInleft-animate,.fadeInRight-animate,.zoomInDown-animate,.zoomIn-animate,.fadeInBottomLeft-animate,.fadeInUp-animate,.rotateInDownLeft-animate,.rotateInDownRight-animate,.flipInX-animate{
   opacity: 0;
 }
 
-.flash-animate.animated,.fadeInleft-animate.animated,.fadeInRight-animate.animated,.zoomInDown-animate,.zoomIn-animate.animated,.fadeInBottomLeft-animate.animated,.fadeInUp-animate.animated,.rotateInDownLeft-animate.animated,.rotateInDownRight-animate.animated{
+.flash-animate.animated,.fadeInleft-animate.animated,.fadeInRight-animate.animated,.zoomInDown-animate,.zoomIn-animate.animated,.fadeInBottomLeft-animate.animated,.fadeInUp-animate.animated,.rotateInDownLeft-animate.animated,.rotateInDownRight-animate.animated,.flipInX-animate.animated{
   opacity: 1;
+}
+
+
+.wp-code-link{
+  position: absolute;
+  right: 180px;
+
+}
+.wp-demo-link{
+  position: relative;
+  right: 170px;
+
+}
+
+
+.map_bind{
+  width: 550px;
+  height: 350px;
 }
