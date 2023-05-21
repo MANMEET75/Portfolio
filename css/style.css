@@ -15679,11 +15679,11 @@ ul {
 } */
 
 
-.flash-animate,.fadeInleft-animate,.fadeInRight-animate,.zoomInDown-animate,.zoomIn-animate,.fadeInBottomLeft-animate,.fadeInUp-animate,.rotateInDownLeft-animate,.rotateInDownRight-animate,.flipInX-animate{
+.zoomInDown-animate,.flash-animate,.fadeInleft-animate,.fadeInRight-animate,.zoomInDown-animate,.zoomIn-animate,.fadeInBottomLeft-animate,.fadeInUp-animate,.rotateInDownLeft-animate,.rotateInDownRight-animate,.flipInX-animate{
   opacity: 0;
 }
 
-.flash-animate.animated,.fadeInleft-animate.animated,.fadeInRight-animate.animated,.zoomInDown-animate,.zoomIn-animate.animated,.fadeInBottomLeft-animate.animated,.fadeInUp-animate.animated,.rotateInDownLeft-animate.animated,.rotateInDownRight-animate.animated,.flipInX-animate.animated{
+.zoomInDown-animate.animated,.flash-animate.animated,.fadeInleft-animate.animated,.fadeInRight-animate.animated,.zoomInDown-animate,.zoomIn-animate.animated,.fadeInBottomLeft-animate.animated,.fadeInUp-animate.animated,.rotateInDownLeft-animate.animated,.rotateInDownRight-animate.animated,.flipInX-animate.animated{
   opacity: 1;
 }
 

@@ -524,6 +524,12 @@ $(document).ready(function () {
   },{
     offset:"50%"
   });
+  $(".zoomInDown-animate").waypoint(function(direction){
+    $(".zoomInDown-animate").addClass("animated zoomInDown")
+
+  },{
+    offset:"50%"
+  });
   $(".fadeInUp-animate").waypoint(function(direction){
     $(".fadeInUp-animate").addClass("animated fadeInUp")
 
