@@ -15625,6 +15625,22 @@ ul {
   cursor: pointer;
   border: #ffff 5px solid;
 }
+
+@media only screen and (max-width: 1620px) {
+  .card {
+    height: 500px;
+    width:650px;
+
+  }
+}
+@media only screen and (max-width: 1325px) {
+  .card {
+    height: 400px;
+    width:550px;
+
+  }
+}
+
 .web-projects-desc{
   padding-top: 12px;
 }
