@@ -15630,8 +15630,19 @@ ul {
   .card {
     height: 500px;
     width:650px;
-
   }
+  .wp-code-link{
+    position: relative;
+    left: 5px;
+  
+  }
+  .wp-demo-link{
+    position: relative;
+    left: 100px;
+  
+  }
+
+
 }
 @media only screen and (max-width: 1325px) {
   .card {
