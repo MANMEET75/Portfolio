@@ -15706,11 +15706,11 @@ ul {
 } */
 
 
-.zoomInDown-animate,.flash-animate,.fadeInleft-animate,.fadeInRight-animate,.zoomInDown-animate,.zoomIn-animate,.fadeInBottomLeft-animate,.fadeInUp-animate,.rotateInDownLeft-animate,.rotateInDownRight-animate,.flipInX-animate{
+.bounceInDown-animate,.bounce-animate,.bounceInRight-animate,.bounceInUp-animate,.bounceInLeft-animate,.pulse-animate,.zoomInDown-animate,.flash-animate,.fadeInleft-animate,.fadeInRight-animate,.zoomInDown-animate,.zoomIn-animate,.fadeInBottomLeft-animate,.fadeInUp-animate,.rotateInDownLeft-animate,.rotateInDownRight-animate,.flipInX-animate{
   opacity: 0;
 }
 
-.zoomInDown-animate.animated,.flash-animate.animated,.fadeInleft-animate.animated,.fadeInRight-animate.animated,.zoomInDown-animate,.zoomIn-animate.animated,.fadeInBottomLeft-animate.animated,.fadeInUp-animate.animated,.rotateInDownLeft-animate.animated,.rotateInDownRight-animate.animated,.flipInX-animate.animated{
+.bounceInDown-animate.animated,.bounce-animate.animated,.bounceInRight-animate.animated,.bounceInUp-animate.animated,.bounceInLeft-animate.animated,.pulse-animate.animated,.zoomInDown-animate.animated,.flash-animate.animated,.fadeInleft-animate.animated,.fadeInRight-animate.animated,.zoomInDown-animate,.zoomIn-animate.animated,.fadeInBottomLeft-animate.animated,.fadeInUp-animate.animated,.rotateInDownLeft-animate.animated,.rotateInDownRight-animate.animated,.flipInX-animate.animated{
   opacity: 1;
 }
 
@@ -15731,3 +15731,4 @@ ul {
   width: 550px;
   height: 350px;
 }
+

@@ -560,6 +560,45 @@ $(document).ready(function () {
   },{
     offset:"50%"
   });
+  $(".pulse-animate").waypoint(function(direction){
+    $(".pulse-animate").addClass("animated pulse")
+
+  },{
+    offset:"50%"
+  });
+
+  $(".bounceInLeft-animate").waypoint(function(direction){
+    $(".bounceInLeft-animate").addClass("animated bounceInLeft")
+
+  },{
+    offset:"50%"
+  });
+
+
+  $(".bounceInUp-animate").waypoint(function(direction){
+    $(".bounceInUp-animate").addClass("animated bounceInUp")
+
+  },{
+    offset:"50%"
+  });
+  $(".bounceInRight-animate").waypoint(function(direction){
+    $(".bounceInRight-animate").addClass("animated bounceInRight")
+
+  },{
+    offset:"50%"
+  });
+  $(".bounce-animate").waypoint(function(direction){
+    $(".bounce-animate").addClass("animated bounce")
+
+  },{
+    offset:"50%"
+  });
+  $(".bounceInDown-animate").waypoint(function(direction){
+    $(".bounceInDown-animate").addClass("animated bounceInDown")
+
+  },{
+    offset:"50%"
+  });
 
 
 
