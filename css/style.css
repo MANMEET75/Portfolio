@@ -14086,8 +14086,10 @@ textarea.form-control {
 }
 
 #totp {
+  padding-top: 7px;
   background: #fff;
   margin-left: 60px;
+  height: 125px;
 }
 
 #totp {
