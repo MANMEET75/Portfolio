@@ -4732,6 +4732,9 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   list-style: none;
 }
+.navbar-collapse{
+  /* visibility: hidden; */
+}
 
 .nav-link {
   display: block;
@@ -15733,4 +15736,29 @@ ul {
   width: 550px;
   height: 350px;
 }
+
+.infrared-subheadings{
+  font-weight: 700;
+}
+
+#infrared-logo{
+  position: absolute;
+  top: 350px;
+  
+
+}
+
+.gold {
+  text-transform: uppercase;
+  line-height:1;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(177, 180, 147, 1) 0%, #b1b493 50%, rgba(177, 180, 147, 1) 70%, rgba(249, 244, 180, 1) 85%, #b1b493 95%, rgba(0, 0, 0, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;	
+  animation: shine 1s infinite;
+  background-size: 200%;
+  background-position: left;
+}
+
+
 
